@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Word Guessing Game</title>
+  </head>
+  <body>
+    <div class="container center pt--large">
+      <h1>Time to Start Guessing...</h1>
+      <p class="pt-small">
+        So this is how the game goes... Guess a 5 letter word in the input box
+        below, press submit and wait to see how close you got to guessing the
+        right word!
+      </p>
+    </div>
+    <div class="form">
+      <input type="text" name="guess" id="guess" class="input-box" />
+      <div class="pt-small">
+        <button id="input-btn" class="input-btn">Submit</button>
+      </div>
+    </div>
+    <div>
+      <div class="word-wrapper">
+        <div class="box-wrapper box-wrapper-1">
+          <h3 id="word-1">?</h3>
+        </div>
+        <div class="box-wrapper box-wrapper-2">
+          <h3 id="word-2">?</h3>
+        </div>
+        <div class="box-wrapper box-wrapper-3">
+          <h3 id="word-3">?</h3>
+        </div>
+        <div class="box-wrapper box-wrapper-4">
+          <h3 id="word-4">?</h3>
+        </div>
+        <div class="box-wrapper box-wrapper-5">
+          <h3 id="word-5">?</h3>
+        </div>
+      </div>
+    </div>
+    <div class="pt-small center">
+      <h5 id="message"></h5>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
